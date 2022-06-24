@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Mykhirl/Zuri-Responsive-Task/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mykhirl/Zuri-Responsive-Task/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Zuri Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+<main>
+	<div class="intro">
+		<h2>Learn to code by watching others</h2>
+		<p>
+			See how experienced developers solve problems in real-time.
+		</p>
+		<p>Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+	</div>
+	<div class="reg-form">
+		<div class="form">
+			<button id="button1"> <span>Try it free 7 days</span> then $20/mo. thereafter.</button>
+		<br>
+		<br>
+			<form>
+				<input type="text" name="First-name" placeholder="Jonathan|">
+				<br>
+				<br>
+				<input type="text" name="Last-name" placeholder="Last Name">
+				<br><br>
+				<input type="email" name="Email" placeholder="Email Address" required>
+				<br> <br>
+				<input type="password" name="Password" required placeholder="Password">
+				<br> <br>
+				<button href="#" id="button2"> claim your free trial</button>
+				<br><br>
+				<p><small>By clicking the button you are agreeing to our <span id="redspan">Terms and Services</span></small></p>
+			</form>
+		</div>
+	</div>
+</main>
+</body>
+</html>
