@@ -20,6 +20,8 @@ main{
 }
 .intro{
 	padding: 20px;
+        color: white;
+        text-align: center;
 }
 .form{
 	padding: 20px;
@@ -27,7 +29,7 @@ main{
 form{
 	background-color: white;
 	padding: 10px;
-	text-align: 
+	 
 }
 form input{
 	line-height: 5px;
