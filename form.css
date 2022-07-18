@@ -79,8 +79,8 @@ form input{
 		padding: 30px;
 	}
 
-	.intro{
-		/*padding: 20px;*/
+	.intro h2{
+		padding-bottom: 10px;
 	}
 	.form{
 		/*padding: 20px;*/
